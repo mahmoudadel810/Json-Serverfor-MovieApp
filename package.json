@@ -2,8 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "json-server data.json –w –p 3000",
+    "start": "node index.js",
+    "dev": "json-server data.json --watch --port 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
